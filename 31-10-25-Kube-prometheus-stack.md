@@ -12,3 +12,7 @@ You have to just add new new probe
 ```
 nano cert-expiry-probe.yaml
 ```
+## Install application via helm
+```
+helm upgrade --install clover-monitoring oci://ghcr.io/ketan-cloverinfotech/charts/clover-monitoring --version 0.1.5 -n monitoring
+```
