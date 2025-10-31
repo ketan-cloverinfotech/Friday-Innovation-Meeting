@@ -7,3 +7,8 @@ Check scrape configs presents
 ```
 kubectl get scrapeconfig
 ```
+## 2. How to add new Probe ( website or api endpoint" http,https,gRPC etc )
+You have to just add new new probe 
+```
+nano cert-expiry-probe.yaml
+```
